@@ -1,5 +1,5 @@
 /**
- * @brief: Firmware desarrollado para el Robot Sumo Mini que por ahora solo encuentra al rival usando un control PID.
+ * @brief: Firmware developed for the Robot Sumo Auto named "Lauchita". It finds it's enemy using a PID controller.
  * @author : Lucas Cortes.
  * @date: 19/12/2019
  */
@@ -29,20 +29,20 @@
 
 
 /**
- * @brief : define la potencia máxima entregada a los motores
+ * @brief : defines the maximum power given to the motors.
  */
 #define POWER_MAX 255
 
 
 /**
- * @brief : constantes del controlador PID
+ * @brief : PID controller constants.
  */
 #define KP 0.15 //0.064
 #define KI 0.0008
 #define KD 0.016
 
 /**
- * @brief: referencia a seguir con el control PID
+ * @brief: Reference to follow with the PID controller.
  */
 #define REF 2000
 
@@ -92,7 +92,7 @@ void setup(){
     tactic = digitalRead(PIN_DIP_SWITCH_1);
 
     #if SERIAL > NONE
-        Serial.println("Wait for Buton Start ...");
+        Serial.println("Wait for Button Start ...");
     #endif
 
 
