@@ -1,6 +1,6 @@
 # Proyecto Sumo Mini
 
-## Project moved to [GitHub](https://github.com/lcortesg/sumo-mini).
+## Project migrated to [GitHub](https://github.com/lcortesg/sumo-mini).
 
 GIT del proyecto Sumo MINI
 
