@@ -1,7 +1,7 @@
-# Proyecto Sumo Mini
+# Sumo Mini Project
 
-## Project migrated from [GitLab](https://gitlab.labcomp.cl/lcortes/sumo-mini).
+## Project migrated from [GitLab](https://gitlab.labcomp.cl/lcortes/sumo-mini)
 
-GIT del proyecto Sumo MINI
+Sumo Mini GIT repository.
 
 Licensed under the [GPLv3 License](https://www.gnu.org/licenses/gpl-3.0.html).
