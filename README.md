@@ -2,6 +2,6 @@
 
 ## Project migrated to [GitHub](https://github.com/lcortesg/sumo-mini)
 
-Sumo Mini GIT repository.
+TEST Sumo Mini GIT repository.
 
 Licensed under the [GPLv3 License](https://www.gnu.org/licenses/gpl-3.0.html).
