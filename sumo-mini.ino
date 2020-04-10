@@ -68,13 +68,13 @@ int tactic = 0;
 
 
 void setup(){
-    
+
      pinMode(MOTOR_LEFT_A, OUTPUT);
      pinMode(MOTOR_LEFT_B, OUTPUT);
      pinMode(MOTOR_RIGHT_A, OUTPUT);
      pinMode(MOTOR_RIGHT_B, OUTPUT);
-    
-    
+
+
     #if SERIAL > NONE
         Serial.begin(115200);
         Serial.println("Init Sumo Robot - CoR 2019");
@@ -100,7 +100,7 @@ void setup(){
     #if SERIAL > NONE
         Serial.println("Fight!!!");
     #endif
-    
+
 }
 
 
@@ -115,12 +115,12 @@ void loop(){
             }
         }
         */
-        
+
         digitalWrite(MOTOR_LEFT_A, LOW);
         digitalWrite(MOTOR_LEFT_B, HIGH);
         digitalWrite(MOTOR_RIGHT_A, LOW);
         digitalWrite(MOTOR_RIGHT_B, HIGH);
-        
+
     }
 
     digitalWrite(MOTOR_LEFT_A, LOW);

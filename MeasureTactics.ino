@@ -1,5 +1,9 @@
 /**
+<<<<<<< HEAD
  * @function measureLine : Lee los sensores de línea y determina si se está detectando un fondo blanco
+=======
+ * @function measureLine : Lee los sensores de línea y determina si se está detectando un fondo blanco 
+>>>>>>> 78b7154f0c3b81b701fbb7887594625cef9d480f
  * @param : none
  * @return : retorna 0 si no se detecta una línea, 1 en caso contrario
  */
